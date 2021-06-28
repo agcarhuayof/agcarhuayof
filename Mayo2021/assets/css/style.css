@@ -1,8 +1,186 @@
-#header
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+/*NAV BAR- PRIMERA SECCIÓN*/
+#primerContenedor
+{
+    width: 1366px;
+    height: 96px;
+    position: absolute;
+    border-bottom: 1px solid orange;
+}
+#navbarPrincipal
+{
+    display: inline;
+    height: 60px;
+    float: right;
+}
+#logoEmpresa
+{
+    margin-top: 33px;
+    margin-left: 100px;
+    width: 129px;
+    height: 30px;
+    
+}
+
+li{
+    display: inline;
+    top: 0px;
+    left: 1190px;
+    width: 75px;
+    height: 96px;
+    color: aliceblue;
+    margin: 33px;
+    float: left;
+    
+    
+}
+
+li a{
+    text-decoration: none;
+    top: 38px;
+    left: 811px;
+    width: 42px;
+    height: 21px;
+    font: var(--unnamed-font-style-normal) normal var(--unnamed-font-weight-medium) var(--unnamed-font-size-16)/var(--unnamed-line-spacing-21) var(--unnamed-font-family-roboto);
+    color: var(--unnamed-color-ffffff);
+    text-align: center;
+    font: normal normal medium 16px/21px Roboto;
+    letter-spacing: 0px;
+    color: #FFFFFF;
+    opacity: 1;
+}
+
+/*SEGUNDA SECCIÓN*/
+#segundoContenedor
 {
     background-image: url("../images/slider-1.png");
-    height: 500px;
+    width: 1366px;
+    height: 768px;
+    
 }
-li{
-    color: aliceblue;
+
+#subSegundoContenedor
+{
+    display: inline-block;
+    margin-top: 254px;
+    margin-left: 101px;
+    height: fit-content;
+}
+button
+{
+    top: 480px;
+    left: 101px;
+    width: 144px;
+    height: 48px;
+    background: var(--unnamed-color-e0752f) 0% 0% no-repeat padding-box;
+    background: #E0752F 0% 0% no-repeat padding-box;
+    border-radius: 25px;
+    opacity: 1;
+
+}
+h1
+{
+    top: 254px;
+    left: 101px;
+    width: 554px;
+    height: 115px;
+    font: var(--unnamed-font-style-normal) normal var(--unnamed-font-weight-600) var(--unnamed-font-size-48)/var(--unnamed-line-spacing-48) var(--unnamed-font-family-poppins);
+    letter-spacing: var(--unnamed-character-spacing-0-67);
+    color: var(--unnamed-color-ffffff);
+    text-align: left;
+    font: normal normal 600 48px/48px Poppins;
+    letter-spacing: 0.67px;
+    color: #FFFFFF;
+    opacity: 1;
+
+}
+#informacionBanner
+{
+    top: 399px;
+    left: 101px;
+    width: 343px;
+    height: 42px;
+    font: var(--unnamed-font-style-normal) normal var(--unnamed-font-weight-medium) var(--unnamed-font-size-16)/var(--unnamed-line-spacing-21) var(--unnamed-font-family-roboto);
+    letter-spacing: var(--unnamed-character-spacing-0-22);
+    color: var(--unnamed-color-ffffff);
+    text-align: left;
+    font: normal normal medium 16px/21px Roboto;
+    letter-spacing: 0.22px;
+    color: #FFFFFF;
+    opacity: 1;
+}
+
+/*TERCERA SECCIÓN*/
+#tercerContenedor
+{  
+    top: 768px;
+    left: 0px;
+    width: 1366px;
+    height: 672px;
+    display: flex;
+    background: var(--unnamed-color-ffffff) 0% 0% no-repeat padding-box;
+    background: #FFFFFF 0% 0% no-repeat padding-box;
+    opacity: 1; 
+
+}
+
+#tercerContenedor #subPTercerContenedor
+{
+    margin-top: 144px;
+    margin-bottom: 144px;
+    top: 912px;
+    left: 0px;
+    width: 32px;
+    height: 384px;
+    align-self: flex-start;
+    background: #E0752F 0% 0% no-repeat padding-box;
+    opacity: 1;
+}
+
+#subSTercerContenedor
+{
+    margin-top: 167px;
+}
+#subSTercerContenedor #subTituloPTercerContenedor
+{
+    margin-left:299px;
+    top: 935px;
+    left: 299px;
+    width: 402px;
+    height: 100px;
+    font: var(--unnamed-font-style-normal) normal var(--unnamed-font-weight-600) var(--unnamed-font-size-39)/var(--unnamed-line-spacing-45) var(--unnamed-font-family-poppins);
+    letter-spacing: var(--unnamed-character-spacing-0-55);
+    text-align: left;
+    font: normal normal 600 39px/45px Poppins;
+    letter-spacing: 0.55px;
+    opacity: 1;
+}
+
+#subSTercerContenedor #subTituloSTercerContenedor
+{
+    color: #E0752F;
+}
+
+
+#subParrafoTercerContenedor
+{
+    margin-left:299px;
+    height: fit-content;
+    top: 1079px;
+    left: 299px;
+    width: 768px;
+    height: 197px;
+    font: var(--unnamed-font-style-normal) normal var(--unnamed-font-weight-normal) var(--unnamed-font-size-16)/var(--unnamed-line-spacing-28) var(--unnamed-font-family-roboto);
+    letter-spacing: var(--unnamed-character-spacing-0-22);
+    color: var(--unnamed-color-343434);
+    text-align: left;
+    font: normal normal normal 16px/28px Roboto;
+    letter-spacing: 0.22px;
+    color: #343434;
+    opacity: 1;
 }
