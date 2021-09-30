@@ -14,16 +14,16 @@
     margin-left: 101px;
     height: fit-content;
 }
-button
+.botones
 {
     top: 480px;
     left: 101px;
     width: 144px;
     height: 48px;
-    background: var(--unnamed-color-e0752f) 0% 0% no-repeat padding-box;
     background: #E0752F 0% 0% no-repeat padding-box;
     color: #FFFFFF;
     border-radius: 25px;
+    border-color: #E0752F 0% 0% no-repeat padding-box;;
     opacity: 1;
 
 }
@@ -33,9 +33,6 @@ h1
     left: 101px;
     width: 554px;
     height: 115px;
-    font: var(--unnamed-font-style-normal) normal var(--unnamed-font-weight-600) var(--unnamed-font-size-48)/var(--unnamed-line-spacing-48) var(--unnamed-font-family-poppins);
-    letter-spacing: var(--unnamed-character-spacing-0-67);
-    color: var(--unnamed-color-ffffff);
     text-align: left;
     font: normal normal 600 48px/48px Poppins;
     letter-spacing: 0.67px;
@@ -49,9 +46,6 @@ h1
     left: 101px;
     width: 343px;
     height: 42px;
-    font: var(--unnamed-font-style-normal) normal var(--unnamed-font-weight-medium) var(--unnamed-font-size-16)/var(--unnamed-line-spacing-21) var(--unnamed-font-family-roboto);
-    letter-spacing: var(--unnamed-character-spacing-0-22);
-    color: var(--unnamed-color-ffffff);
     text-align: left;
     font: normal normal medium 16px/21px Roboto;
     letter-spacing: 0.22px;
@@ -123,57 +117,214 @@ h1
     opacity: 1;
 }
 
-/*CUARTA SECCIÓN
+/*CUARTA SECCIÓN */
+
 
 #cuartoContenedor
 {
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    top: 1440px;
+    position: relative;
+    z-index: 1;
     left: 0px;
     width: 1366px;
     height: 768px;
-    opacity: 1;
     background-color: #F2F4F1;
     
 }
-
-#cuartoContenedor #cuartosubPContenedor
+.cuadroPlomo
 {
-    top: 1800px;
-    left: 695px;
-    width: 471px;
-    height: 304px;
-    background-color:#DCE1DA;
-    opacity: 1;
-}
-#cuartoContenedor #cuartosubSContenedor
-{
-    align-items: flex-end;
-    justify-content: flex-end;
-    top: 1440px;
-    left: 0px;
+    position: absolute;
+    z-index: 2;
+    left: 968px;
     width: 398px;
     height: 768px;
-    background-color:#DCE1DA;
-    border: chartreuse;
+    background-color: #DCE1DA;
+    opacity: 1;
+}
+#imagenContenedor
+{
+    position: absolute;
+    background-image: url("../images/section3-image.png");
+    z-index: 3;
+    top: 112px;
+    left: 200px;
+    width: 966px;
+    height: 552px;
+}
+#contenedorTexto
+{
+    position: absolute;
+    z-index: 4;
+    background-color: #E0752F;
+    left: 495px;
+    top: 248px;
+    width: 471px;
+    height: 304px;
+}
+#contenedorTexto #textoSed
+{
+    position: absolute;
+    top: 68px;
+    left: 50px;
+    width: 137px;
+    height: 21px;
+    font-size: 16px;
+    text-align: left;
+    letter-spacing: 0.22px;
+    font: normal normal medium 16px/21px Roboto;
+    color: #FFFFFF;
+    opacity: 1;
+
+}
+#contenedorTexto #textoNemo
+{
+    position: absolute;
+    top: 83px;
+    left: 50px;
+    width: 229px;
+    height: 21px;
+    font-size: 39px;
+    text-align: left;
+    letter-spacing: 0.22px;
+    letter-spacing: 0.55px;
+    color: #FFFFFF;
+    opacity: 1;
+
+}
+#contenedorTexto #textParrafo
+{
+    position: absolute;
+    font-size: 16px;
+    top: 157.5px;
+    left: 50px;
+    width: 372px;
+    height: 63px;
+    text-align: left;
+    font: normal normal normal 16px/21px Roboto;
+    letter-spacing: 0.22px;
+    color: #FFFFFF;
     opacity: 1;
 }
 
-*/
+#contenedorTexto #flechaD
+{
+    position: absolute;
+    background-image: url("../images/Icon\ feather-arrow-right-circle.png");
+    top: 253px;
+    left: 401.7px;
+    width: 22px;
+    height: 22px;
+}
+#contenedorTexto #flechaI
+{
+    position: absolute;
+    background-image: url("../images/Icon\ feather-arrow-left-circle.png");
+    top: 253px;
+    left: 371.3px;
+    width: 22px;
+    height: 22px;
+}
 
 /*QUINTO SECCIÓN*/
 
 #quintoContenedor
 {
-    top: 1440px;
+    position: relative;
+    z-index: 1;
     left: 0px;
     width: 1366px;
     height: 768px;
     opacity: 1;
-    background-color: antiquewhite;
-    border: 1px solid black;
+    background-color: #FFFFFF;
 }
 
+#cuadroImagenCaminata
+{
+    position: absolute;
+    z-index: 2;
+    background-image: url("../images/section4-image.png");
+    left: 596px;
+    width: 770px;
+    height: 768px;
+}
+
+#comboTexto
+{
+    position: absolute;
+    background-color: aquamarine;
+    z-index: 3;
+    top: 144px;
+    left: 101px;
+    width: 669px;
+    height: 192px;
+}
+
+/*SEXTA SECCIÓN*/
+#sextaContenedor
+{
+    position: relative;
+    z-index: 1;
+    left: 0px;
+    width: 1366px;
+    height: 768px;
+    opacity: 1;
+    background-color: #FFFFFF;
+}
+#cuadroImagenGlobo
+{
+    position: absolute;
+    z-index: 3;
+    background-image: url("../images/contact-image.png");
+    top: 3168px;
+    left: 671px;
+    bottom: 176px;
+    width: 594px;
+    height: 400px;
+
+}
+#titulosFormulario
+{
+    position: absolute;
+    z-index: 4;
+    top: 3096px;
+    left: 101px;
+    width: 285px;
+    height: 100px;
+    text-align: left;
+    
+}
+
+#tituloGet
+{
+    position: absolute;
+    top: 0px;
+    left: 0px;
+    width: 245px;
+    height: 55px;
+    font: normal normal 600 39px/45px Poppins;
+    text-align: left;
+    color: #343434;
+    letter-spacing: 0.55px;
+    opacity: 1;
+}
+#tituloWe
+{
+    position: absolute;
+    top: 45px;
+    left: 0px;
+    width: 285px;
+    height: 55px;
+    text-align: left;
+    font: normal normal 600 39px/45px Poppins;
+    letter-spacing: 0.55px;
+    color: #E0752F;
+}
+#formulario
+{
+    position: absolute;
+    z-index: 5;
+    left: 101px;
+    top: 3271px;
+    width: 471px;
+    height: 345px;
+}
 
