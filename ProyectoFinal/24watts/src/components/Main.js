@@ -1,5 +1,6 @@
 import React from 'react';
 import '../assets/css/styles.css'
+import Formulario from './Formulario';
 
 export default function Main()
 {
@@ -137,56 +138,7 @@ export default function Main()
         </div>
       </section>
          
-      <section id="sextoContenedor">
-        <div id="titulosFormulario">
-          <h1 id="tituloGet"> Get in touch <span id="tituloWe">
-            We are hiring!</span> </h1>  
-        </div>
-        
-        <form action="" id="formulario">
-        
-          <div class="form-floating mb-3">
-              
-            <input type="text" class="form-control" id="floatingInput" placeholder="Name"></input>
-            <label for="floatingInput">Name</label>
-
-          </div>
-
-          <div class="form-floating mb-3">
-              
-            <input type="email" class="form-control" id="floatingInput" placeholder="Email"></input>
-            <label for="floatingInput">Email</label>
-
-          </div>
-
-          <div class="form-floating mb-3">
-              
-            <input type="text" class="form-control" id="floatingInput" placeholder="Phone"></input>
-            <label for="floatingInput">Phone</label>
-
-          </div>
-
-          <div class="form-floating mb-3">
-            
-            <textarea class="form-control" placeholder="Leave a comment here" id="floatingTextarea2"></textarea>
-            <label for="floatingTextarea2">Message</label>
-          </div>
-      
-          <button class="botones">
-            Send
-          </button>
-
-        </form>
-
-        <div class="cuadroPlomo">
-
-        </div>
-        
-        <div id="cuadroImagenGlobo">
-          
-        </div>
-
-    </section>
+    
 
       </main>
     )
