@@ -43,7 +43,6 @@ function Mailer()
                         console.log(res);
                         alert("El formulario ha sido registrado exitosamente");
                         e.target.reset()
-                        
       
                         
                     }).catch(err=>console.log(err));

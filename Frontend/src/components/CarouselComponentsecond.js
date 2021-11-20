@@ -50,8 +50,10 @@ const CarouselComponentsecond=()=>
               <Carousel.Caption id="contenedorTexto">
                       <div id="subSegundoContenedor">
                       <h4 id="textoSed">Enlaces</h4>
-                      <p id="textParrafo">Github: <a href="https://github.com/agcarhuayof/agcarhuayof">Repositorio</a></p>
-                      <p id="textParrafo">API: <a href="https://backendapiclientes.herokuapp.com/public/api/clientes">Repositorio</a></p>
+                      <h1 id="textoNemo"><a href="https://github.com/agcarhuayof/agcarhuayof">Repositorio</a></h1>
+                      <p id="textParrafo"><a href="https://backendapiclientes.herokuapp.com/public/api/clientes">Enlace a la API</a></p>
+                
+                      
                     </div>
               </Carousel.Caption>
             </Carousel.Item>
